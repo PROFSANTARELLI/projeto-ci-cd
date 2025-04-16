@@ -1,7 +1,7 @@
 class Player: 
     def __init__(self, name, hp): 
         self.name = name 
-        self.hp = hp 
+        self.hp = hps
  
     def take_damage(self, amount): 
         self.hp -= amount 
